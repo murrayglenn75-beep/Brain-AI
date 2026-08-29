@@ -107,6 +107,8 @@ See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) for the disclosure boundary.
 
 ```text
 .
+├── .gitignore
+├── MANIFEST.sha256.json
 ├── README.md
 ├── NOTICE.md
 ├── docs/
