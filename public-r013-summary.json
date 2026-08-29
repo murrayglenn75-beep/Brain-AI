@@ -1,0 +1,28 @@
+{
+  "project": "Brain AI",
+  "public_disclosure": true,
+  "implementation_included": false,
+  "milestone": "R-013 / v4.3",
+  "evaluation_type": "sealed simulated-world stress evaluation",
+  "results": {
+    "worlds": 1000000,
+    "resolved": 444727,
+    "correct_resolutions": 437087,
+    "incorrect_resolutions": 7640,
+    "resolved_accuracy_percent": 98.282092,
+    "false_resolution_rate_percent_all_worlds": 0.764,
+    "structural_checks_percent": 100
+  },
+  "interpretation": [
+    "Applies to the tested simulator and candidate.",
+    "Does not constitute formal proof.",
+    "Does not establish universal real-world performance."
+  ],
+  "disclosure_boundary": {
+    "trusted_core_source": "withheld",
+    "authorization_thresholds": "withheld",
+    "world_generators": "withheld",
+    "hidden_evaluation_corpora": "withheld",
+    "future_security_architecture": "withheld"
+  }
+}

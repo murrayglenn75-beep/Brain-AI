@@ -1,0 +1,13 @@
+# No private Brain AI implementation belongs in this repository
+private/
+trusted-core/
+research/
+secrets/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.DS_Store
