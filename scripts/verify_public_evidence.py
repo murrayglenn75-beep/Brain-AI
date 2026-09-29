@@ -24,7 +24,12 @@ def tracked_files():
 
 
 def digest(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    """Hash the Git index blob, independent of Windows/Linux line endings."""
+    content = subprocess.check_output(
+        ["git", "show", f":{path.as_posix()}"],
+        cwd=ROOT,
+    )
+    return hashlib.sha256(content).hexdigest()
 
 
 def build_manifest():
