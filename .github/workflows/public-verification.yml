@@ -1,0 +1,25 @@
+name: Brain AI public verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-public-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Verify published evidence and manifest
+        run: python scripts/verify_public_evidence.py

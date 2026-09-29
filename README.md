@@ -128,3 +128,19 @@ AI Systems / Forward Deployed Engineering
 ---
 
 **Public showcase only — core implementation retained privately.**
+
+---
+
+## Verify the public research bundle
+
+The public evidence and SHA-256 manifest can be checked locally:
+
+```bash
+python scripts/verify_public_evidence.py
+```
+
+This checks the published R-013 result arithmetic and the hashes of tracked disclosure files.
+
+It does **not** rerun the private research simulation or establish production correctness.
+
+See [Project Relationships](docs/PROJECT_RELATIONSHIPS.md) for how Brain AI differs from AAK and Agent Security Lab.
