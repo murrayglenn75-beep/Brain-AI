@@ -1,5 +1,14 @@
 # Brain AI — Public Engineering Showcase
 
+## 30-second overview
+
+**Brain AI is a research system for stopping AI agents from treating uncertain information as established truth or automatic permission to act.** It separates what a model believes from what the surrounding system is willing to trust and authorize.
+
+**What I built:** an experimental evidence-resolution architecture covering provenance, probabilistic confidence, ambiguity handling, adversarial evaluation, and a separate execution boundary. The public repository contains the architecture and selected validation evidence; security-sensitive core mechanisms remain private.
+
+**Why it matters:** capable models can still be confidently wrong. Brain AI explores how an agent can say “the evidence is not strong enough” instead of forcing a conclusion or action.
+
+
 > **Public disclosure edition.** This repository intentionally contains architecture-level documentation and selected validation evidence only. The trusted-core implementation, research generators, internal thresholds, security-sensitive control logic, and unreleased research remain private.
 
 ## What is Brain AI?
