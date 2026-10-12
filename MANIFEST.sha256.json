@@ -1,4 +1,5 @@
 {
+  ".github/workflows/security-baseline.yml": "2b0cc88928cea7b667f4e5494703384eac2e59797c3335dbc704c4054eaec5bf",
   ".github/workflows/public-verification.yml": "c9787fc605def6be12e7cf3eee301653b55ff923a7c6e9f69d757d19112b6768",
   ".gitignore": "09646aae00ec7115448a2fcb183c8e031961ea2ae3cb53267e5c33c664a5c206",
   "NOTICE.md": "b7d0ecdfad022b91ca3d59315660a88fbfb7c1b83c73d32d4dfdc09c9a40dccd",
