@@ -1,13 +1,14 @@
 {
   ".github/workflows/public-verification.yml": "c9787fc605def6be12e7cf3eee301653b55ff923a7c6e9f69d757d19112b6768",
   ".gitignore": "09646aae00ec7115448a2fcb183c8e031961ea2ae3cb53267e5c33c664a5c206",
-  "NOTICE.md": "b7d0ecdfad022b91ca3d59315660a88fbfb7c1b83c73d32d4dfdc09c9a40dccd",
-  "README.md": "15c0a1f1c7931ea467186f702c639d08fb3839ecc4888e33d961cd0fd18b87de",
   "docs/ARCHITECTURE.md": "cb1d8bb23301ac3fac95ba6c407a52b9780b9cb73dfeaeb20ea3f7c6ee169c12",
   "docs/LIMITATIONS.md": "babba8f48a4506dd5134b0f5166ba84672c6e9a01fec0681bff753800df460e6",
   "docs/PROJECT_RELATIONSHIPS.md": "b2369ba253980eb978c671260c2e034528a489904c16593fb5f686ef5856560c",
+  "docs/RESEARCH_SCION_AGENT_SCALE_2026-10-13.md": "11146710474e11ca5da27e98ea937763037a4d1d007fd0994bb360343d96757c",
   "docs/SECURITY_MODEL.md": "dcc27d69e273104902837e6083b7ae06def30dda74619d32b7578eafeb9e6986",
   "docs/VALIDATION.md": "4e73706a38c9b769adc309260da8842a86512b0308c9ec290633d0c5e2ecbb13",
   "evidence/public-r013-summary.json": "6f2d8ee6ea9e21144fcff486fc1c8d69b9f050c58b9094aba9bcedaa6fd37ed8",
+  "NOTICE.md": "b7d0ecdfad022b91ca3d59315660a88fbfb7c1b83c73d32d4dfdc09c9a40dccd",
+  "README.md": "15c0a1f1c7931ea467186f702c639d08fb3839ecc4888e33d961cd0fd18b87de",
   "scripts/verify_public_evidence.py": "c14e79613abec342ccf946727595f8bb54d71db799a697409034c6fd5e0423e5"
 }
