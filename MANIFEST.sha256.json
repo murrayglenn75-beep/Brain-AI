@@ -1,7 +1,9 @@
 {
+  ".github/workflows/harness-eval-pilot.yml": "8136c8bd1e7b9aa13692de8e9ff2d2a1e0ca9e8548632fcc3af8bfcbb9872804",
   ".github/workflows/public-verification.yml": "c9787fc605def6be12e7cf3eee301653b55ff923a7c6e9f69d757d19112b6768",
   ".gitignore": "09646aae00ec7115448a2fcb183c8e031961ea2ae3cb53267e5c33c664a5c206",
   "docs/ARCHITECTURE.md": "cb1d8bb23301ac3fac95ba6c407a52b9780b9cb73dfeaeb20ea3f7c6ee169c12",
+  "docs/HARNESS_PROMOTION_EVAL.md": "fd78adc96e80d770c6f82eab39cef19836d781906442faf9c624cbfb2b5de6f6",
   "docs/LIMITATIONS.md": "babba8f48a4506dd5134b0f5166ba84672c6e9a01fec0681bff753800df460e6",
   "docs/PROJECT_RELATIONSHIPS.md": "b2369ba253980eb978c671260c2e034528a489904c16593fb5f686ef5856560c",
   "docs/RESEARCH_SCION_AGENT_SCALE_2026-10-13.md": "11146710474e11ca5da27e98ea937763037a4d1d007fd0994bb360343d96757c",
@@ -10,5 +12,7 @@
   "evidence/public-r013-summary.json": "6f2d8ee6ea9e21144fcff486fc1c8d69b9f050c58b9094aba9bcedaa6fd37ed8",
   "NOTICE.md": "b7d0ecdfad022b91ca3d59315660a88fbfb7c1b83c73d32d4dfdc09c9a40dccd",
   "README.md": "15c0a1f1c7931ea467186f702c639d08fb3839ecc4888e33d961cd0fd18b87de",
+  "scripts/promotion_gate.py": "8d173234fc604a40d621e71b8cac5d03338e04cd6ad5d8c8e677c15625eb5bdf",
+  "scripts/test_promotion_gate.py": "4f405a2acca32dd7f4cd67bdce96ec5eb0fd9f5c2fe9d15b0ff8fac519c03f2d",
   "scripts/verify_public_evidence.py": "c14e79613abec342ccf946727595f8bb54d71db799a697409034c6fd5e0423e5"
 }
